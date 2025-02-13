@@ -23,6 +23,7 @@ def greet():
 
 @app.route('/')
 def hello_world():
+    # hello 
     html = generate_html(greet())
     return html
 
